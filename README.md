@@ -88,6 +88,18 @@ Hoặc chỉ định file log và thư mục ảnh chụp:
 python3 src/main.py --camera 0 --log-file ./drowsiness_log.csv --snapshot-dir ./snapshots
 ```
 
+## Demo ảnh snapshot
+
+Các ảnh snapshot sau đây được chụp tự động khi hệ thống phát hiện tài xế ngủ gật.
+
+![Snapshot 1](src/snapshots/drowsy_20260703_005737_EAR0.17_PERCLOS53.jpg)
+
+![Snapshot 2](src/snapshots/drowsy_20260703_005758_EAR0.14_PERCLOS60.jpg)
+
+![Snapshot 3](src/snapshots/drowsy_20260703_005846_EAR0.16_PERCLOS53.jpg)
+
+![Snapshot 4](src/snapshots/drowsy_20260703_005932_EAR0.19_PERCLOS56.jpg)
+
 ## Tham số tùy chọn
 
 - `--disable-audio`: tắt âm thanh cảnh báo

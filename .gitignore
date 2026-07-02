@@ -11,4 +11,3 @@ dist/
 .vscode/
 .idea/
 src/drowsiness_log.csv
-src/snapshots/
