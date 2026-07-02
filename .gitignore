@@ -10,3 +10,5 @@ dist/
 *.egg-info/
 .vscode/
 .idea/
+src/drowsiness_log.csv
+src/snapshots/
