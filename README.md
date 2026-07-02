@@ -28,7 +28,17 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Nếu repo chưa có `requirements.txt`, bạn có thể cài thủ công:
+Nếu bạn chưa cài `requirements.txt` trước đó, nội dung này đã được thêm vào repo với các gói cần thiết sau:
+
+```text
+opencv-python
+numpy
+scipy
+dlib
+pygame
+```
+
+Nếu bạn muốn cài thủ công thay vì dùng file, bạn có thể dùng:
 
 ```bash
 pip install opencv-python dlib numpy scipy pygame
